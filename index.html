@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport;"content="width=device-width, intial scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Montserrat:wght@200;300&family=Raleway:wght@300&family=Urbanist:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ttt.css">
+    
+    <title>Tic-Tac-Toe</title>
+</head>
+    <body> 
+        <body onload=startGame()>
+        <div id="message">messages will go here</div>
+       
+        <div class="wrapper1">
+            <button class="square" id="tl" value=" " onclick="nextMove(this)"></button>
+            <button class="square" id="tm" value=" " onclick="nextMove(this)"></button>
+            <button class="square" id="tr" value=" " onclick="nextMove(this)"></button>
+            <button class="square" id="lm" value=" " onclick="nextMove(this)"></button>
+            <button class="square" id="mm" value=" " onclick="nextMove(this)"></button>
+            <button class="square" id="mr" value=" " onclick="nextMove(this)"></button>
+            <button  class="square" id="bl" value=" " onclick="nextMove(this)"></button>
+            <button class="square" id="bm" value=" " onclick="nextMove(this)"></button>
+            <button class="square" id="br"  value=" " onclick="nextMove(this)"></button>
+        </div>
+    </br> </br> </br>
+    <div class="turnss">
+        <div class="turn1" class="X" id="X"><p style="border:solid white;">X</p></div>
+        <div class="turn2" class="O" id="O"><p style="border:solid white;">O</p></div>
+        
+        
+    </body>
+    <script src="ttt.js"></script>
+    <script src="script.js"></script>
+</html>
